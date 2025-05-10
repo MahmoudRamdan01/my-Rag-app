@@ -13,7 +13,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 import nltk
 # Adjust this path if your user folder is different
-nltk.data.path.append(r"C:\Users\desha\AppData\Roaming\nltk_data")
+nltk.data.path.append("/home/darsh/nltk_data")
 
 
 class DestinationQA:
@@ -209,7 +209,7 @@ class DestinationQA:
 
 if __name__ == "__main__":
     # Configuration
-    PDF_PATH = r"C:\Users\desha\RAG\salka_routes.pdf"
+PDF_PATH = "/home/darsh/chatbot_rag/Chatbot RAG/salka_routes.pdf"
     DB_DIR = "./chroma_db"
     
     # Initialize and run the system
